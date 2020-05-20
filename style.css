@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(images/fundo.png) repeat-x;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+#top {
+    height: 150px;
+    background: url(images/detalhe-topo.png) no-repeat right top;
+    margin-top: 15px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(images/logo.png) no-repeat center;
+    margin-top: 15px;
+}
+
+#nav_bar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+    
+}
+
+#nav_bar li {
+    float: left;
+    
+}
+
+#nav_bar a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(images/divisor.png) no-repeat left center;
+}
+
+#nav_bar a:hover {
+    color: #69001d;
+}
+
+/**body.home #nav_bar a#home, 
+body.home #nav_bar a#brasil, 
+body.home #nav_bar a#internacional, 
+body.home #nav_bar a#economia, 
+body.home #nav_bar a#saude, 
+body.home #nav_bar a#ciencia, 
+body.home #nav_bar a#fotos {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}**/
+
+#content {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#first {
+    background-color: aqua;
+    width: 335px;
+    float: left;
+    margin: 0 0 15px 275px;
+}
+
+#second {
+    background-color: blueviolet;
+    width: 335px;
+    float: left;
+    margin: 0 0 15px 15px;
+}
+
+#side {
+    background-color: brown;
+    width: 265px;
+    float: left;
+    margin: 0 15px 0 -960px;
+}
+
+#footer {
+    background: #294c71;
+    padding: 20px;
+}
+
+footer {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
