@@ -8,6 +8,8 @@ body {
     background: #fff url(images/fundo.png) repeat-x;
 }
 
+/** Top **/
+
 #container {
     width: 960px;
     margin: 0 auto;
@@ -56,23 +58,14 @@ body {
     color: #69001d;
 }
 
-/**body.home #nav_bar a#home, 
-body.home #nav_bar a#brasil, 
-body.home #nav_bar a#internacional, 
-body.home #nav_bar a#economia, 
-body.home #nav_bar a#saude, 
-body.home #nav_bar a#ciencia, 
-body.home #nav_bar a#fotos {
-    color: #fff;
-    background: #de003e;
-    cursor: text;
-}**/
+/** Columns **/
 
 #content {
     margin-top: 60px;
     background: #f5f5f5;
 }
 
+/** Column First **/
 #first {
     background-color: aqua;
     width: 335px;
@@ -80,6 +73,7 @@ body.home #nav_bar a#fotos {
     margin: 0 0 15px 275px;
 }
 
+/** Column Second **/
 #second {
     background-color: blueviolet;
     width: 335px;
@@ -87,13 +81,33 @@ body.home #nav_bar a#fotos {
     margin: 0 0 15px 15px;
 }
 
+/** Side Nav_Bar **/
 #side {
-    background-color: brown;
     width: 265px;
     float: left;
     margin: 0 15px 0 -960px;
 }
 
+#side #nav_bar_side {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    margin-top: 30px;
+    float: left;
+}
+
+#side #nav_bar_side li {
+    padding: 5px;
+}
+
+#side #nav_bar_side a {
+    text-decoration: none;
+    line-height: 2.1em;
+    color: #b10333;
+}
+
+/** Footer **/
 #footer {
     background: #294c71;
     padding: 20px;
