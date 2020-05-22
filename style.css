@@ -66,15 +66,30 @@ body {
 }
 
 /** Column First **/
-#first {
+
+#three-columns #first {
     background-color: aqua;
     width: 335px;
     float: left;
     margin: 0 0 15px 275px;
 }
 
+#two-columns #first {
+    background-color: aqua;
+    width: 555px;
+    float: left;
+    margin: 0 0 15px 275px;
+}
+
+#one-column #first {
+    background-color: aqua;
+    width: 960px;
+    float: left;
+    margin: 0 0 15px 0px;
+}
+
 /** Column Second **/
-#second {
+#three-columns #second {
     background-color: blueviolet;
     width: 335px;
     float: left;
@@ -82,10 +97,24 @@ body {
 }
 
 /** Side Nav_Bar **/
-#side {
+#three-columns #side {
     width: 265px;
     float: left;
-    margin: 0 15px 0 -960px;
+    margin: 15px 15px 0 -960px;
+}
+
+#two-columns #side {
+    width: 265px;
+    float: left;
+    margin: 15px 15px 0 -960px;
+}
+
+#side h2 {
+    width: 200px;
+    padding: 5px;
+    background-color: #3d73ad;
+    border-radius: 2px;
+    color: white;
 }
 
 #side #nav_bar_side {
@@ -93,18 +122,22 @@ body {
     padding: 0;
     list-style: none;
     background: #fff;
-    margin-top: 30px;
+    margin-top: 15px;
     float: left;
 }
 
 #side #nav_bar_side li {
-    padding: 5px;
+    padding: 8px;
 }
 
 #side #nav_bar_side a {
     text-decoration: none;
-    line-height: 2.1em;
-    color: #b10333;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+#side #nav_bar_side a:hover {
+    color: #747474;
 }
 
 /** Footer **/
