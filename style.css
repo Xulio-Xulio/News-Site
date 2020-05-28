@@ -8,7 +8,7 @@ body {
     background: #fff url(images/fundo.png) repeat-x;
 }
 
-/** Top **/
+/** ---------------- Top ---------------- **/
 
 #container {
     width: 960px;
@@ -29,6 +29,7 @@ body {
     margin-top: 15px;
 }
 
+/**---------------- nav_bar_top ----------------**/
 #nav_bar {
     margin: 0;
     padding: 0;
@@ -58,29 +59,114 @@ body {
     color: #69001d;
 }
 
-/** Columns **/
+/** ---------------- Columns ---------------- **/
 
 #content {
     margin-top: 60px;
     background: #f5f5f5;
 }
 
-/** Column First **/
+/**---------------- Column First ---------------- **/
 
+/* three */
 #three-columns #first {
-    background-color: aqua;
     width: 335px;
     float: left;
-    margin: 0 0 15px 275px;
+    margin: 15px 0 15px 275px;
 }
 
+#three-columns #first h2{
+    width: 335px;
+    padding: 5px;
+    background-color: #294c71;
+    border-radius: 2px;
+    color: white;
+}
+
+/* last_interviews */
+#three-columns #first #last_interviews {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    margin: 15px 0 15px 0;
+}
+
+#three-columns #first #last_interviews span{
+    width: 255px;
+    font-size: 1.3em;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #b10333;
+    color: #ffffff;
+}
+
+#three-columns #first #last_interviews img {
+    width: 325px;
+    margin: 15px 0 0 5px;
+}
+
+#three-columns #first #last_interviews p {
+    width: 325px;
+    margin: 15px 0 0 5px;
+    font-size: 1.3em;
+}
+
+#three-columns #first #last_interviews a {
+    width: 325px;
+    margin: 5px 0 0 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #69001d;
+}
+
+#three-columns #first #last_interviews a:hover {
+    color: #92032b;
+    margin-left: 10px;
+}
+
+/* world */
+#three-columns #first #world {
+    margin: 25px 0 25px 0;
+}
+
+#three-columns #first #world img {
+    width: 110px;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+#three-columns #first #world img:hover {
+    width: 115px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#three-columns #first #world span {
+    width: 205px;
+    margin: 0 0 0 10px;
+    float: left;
+    font-size: 1em;
+    color: #295171;
+    text-decoration: none;
+}
+
+#three-columns #first #world p {
+    width: 205px;
+    margin: 5px 0 39px 10px;
+    float: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* two */
 #two-columns #first {
-    background-color: aqua;
     width: 555px;
     float: left;
     margin: 0 0 15px 275px;
 }
 
+/* one */
 #one-column #first {
     background-color: aqua;
     width: 960px;
@@ -96,13 +182,16 @@ body {
     margin: 0 0 15px 15px;
 }
 
-/** Side Nav_Bar **/
+/**---------------- Side Nav_Bar ----------------  **/
+
+/* three */
 #three-columns #side {
     width: 265px;
     float: left;
     margin: 15px 15px 0 -960px;
 }
 
+/* two */
 #two-columns #side {
     width: 265px;
     float: left;
@@ -112,12 +201,12 @@ body {
 #side h2 {
     width: 200px;
     padding: 5px;
-    background-color: #3d73ad;
+    background-color: #294c71;
     border-radius: 2px;
     color: white;
 }
 
-#side #nav_bar_side {
+#side #nav_bar_side ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -138,12 +227,51 @@ body {
 
 #side #nav_bar_side a:hover {
     color: #747474;
+    padding-left: 20px;
+    background: url(images/marcador.png) no-repeat left center;
+}
+
+/* email_news */
+
+#email_news {
+    float: left;
+}
+
+#email_news span{
+    margin-top: 15px;
+    display: block;  
+    font-size: 1.2em;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+#email_news #form_email {
+    padding: 8px;
+}
+
+#email_news #form_email input{
+    width: 200px;
+    margin-top: 8px;
+    height: 1.4em;
+}
+
+#email_news #form_email input[type=button]{
+    display: block;
+    width: 25%;
+    background-color: #b10333;
+    color: #ffffff;
+    border: none;
+}
+
+#email_news #form_email input[type=button]:hover{
+    background-color: #92032b;
 }
 
 /** Footer **/
 #footer {
     background: #294c71;
     padding: 20px;
+    clear: both;
 }
 
 footer {
