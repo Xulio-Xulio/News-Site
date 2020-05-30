@@ -123,6 +123,7 @@ body {
     color: #92032b;
     margin-left: 10px;
     cursor: pointer;
+    transition: margin 1s;
 }
 
 /* world */
@@ -229,6 +230,7 @@ body {
     color: #92032b;
     margin-left: 10px;
     cursor: pointer;
+    transition: margin 1s;
 }
 
 #three-columns #second #recent_news {
@@ -315,6 +317,7 @@ body {
     padding-left: 20px;
     background: url(images/marcador.png) no-repeat left center;
     cursor: pointer;
+    transition: padding, background 0.3s;
 }
 
 /* email_news */
